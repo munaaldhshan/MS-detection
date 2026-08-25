@@ -1,0 +1,53 @@
+# Private research data and generated outputs
+MS/
+data/
+private-data/
+.env
+.env.*
+*.zip
+*.tar
+*.gz
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local training artifacts
+checkpoints/
+artifacts/
+runs/
+mlruns/
+wandb/
+model_checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pickle
+*.pkl
+
+# Logs and local output
+*.log
+*.out
+*.err
+.DS_Store
+Thumbs.db
+
+# Notebook-generated local caches
+patient_ocr_cache.csv
+cache/
